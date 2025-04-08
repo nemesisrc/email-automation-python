@@ -16,8 +16,4 @@
 **🚀 Use Cases**:  
 - Automated notifications (e.g., system alerts, reports)  
 - Batch email campaigns with personalized content  
-- Integration into CI/CD pipelines for deployment alerts  
-
-**⚙️ Architecture**:
-
-Modular design adhering to **SOLID principles**, with decoupled components for SMTP communication, message templating, and scheduler orchestration.
+- Integration into CI/CD pipelines for deployment alerts
