@@ -18,5 +18,6 @@
 - Batch email campaigns with personalized content  
 - Integration into CI/CD pipelines for deployment alerts  
 
-**⚙️ Architecture**:  
+**⚙️ Architecture**:
+
 Modular design adhering to **SOLID principles**, with decoupled components for SMTP communication, message templating, and scheduler orchestration.
