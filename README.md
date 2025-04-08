@@ -19,8 +19,4 @@
 - Integration into CI/CD pipelines for deployment alerts  
 
 **⚙️ Architecture**:  
-Modular design adhering to **SOLID principles**, with decoupled components for SMTP communication, message templating, and scheduler orchestration.  
-
----
-
-This version maintains a technical tone while making the content visually engaging and easier to scan. Let me know if you'd like any refinements!
+Modular design adhering to **SOLID principles**, with decoupled components for SMTP communication, message templating, and scheduler orchestration.
