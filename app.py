@@ -1,18 +1,23 @@
 import smtplib
 import ssl
 from email.message import EmailMessage
-# email password = wyjtzjwnjxaecdvt
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Define email sender and receiver
-email_sender = 'rajdeepchakraborty.asansol@gmail.com' 
-email_password = 'wyjtzjwnjxaecdvt'
-# alternate syntax with python os module --> email_password = os.environ.get("EMAIL_PASSWORD")                  
-email_receiver = 'chakrabortyrina909@gmail.com'        
+email_sender = os.getenv('EMAIL_SENDER')
+email_password = os.getenv('EMAIL_PASSWORD')
+# alternate syntax by declaring global variable with python os module --> email_password = os.environ.get("EMAIL_PASSWORD")                  
+email_receiver = os.getenv('EMAIL_RECEIVER')       
 
 # Set the subject and body of the email
-subject = 'Check out my new video!'
+subject = '2nd automatic email'
 body = """
-I've just published a new video on YouTube: https://youtu.be/2cZzP9DLlkg
+email automation working fine!!
+2nd automatic email success
 """
 
 em = EmailMessage()
